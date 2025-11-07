@@ -1,0 +1,78 @@
+/* ✅ Full & Final CSS for Centered UI */
+
+/* Center whole UI */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* White card container */
+.container {
+  background: #fff;
+  color: #000;
+  padding: 30px;
+  border-radius: 12px;
+  width: 450px;
+  text-align: center;
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* File input box styling */
+.file-input {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+/* File input element */
+.file-input input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Upload button */
+.upload-button {
+  padding: 12px 20px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.upload-button:hover {
+  background: #222;
+}
+
+/* Transcription result card */
+.transcription-result {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+/* Inner text box */
+.transcription-result p {
+  background: #f0f0f0;
+  padding: 12px;
+  border-radius: 8px;
+  min-height: 120px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
