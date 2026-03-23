@@ -17,7 +17,7 @@ const AudioUploader =()=>{
         formData.append('file',file);
 
         try{
-            const response= await axios.post('http://localhost:8080/api/transcribe',formData,{
+            const response= await axios.post('https://spring-ai-audio-transcribe.onrender.com/api/transcribe',formData,{
                 headers:{
                     'Content-Type':'multipart/form-data',
 
