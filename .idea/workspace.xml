@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96c41a35-0314-4791-8f63-bc2dca1e8a8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Transcribe-AI/src/AudioUploader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Transcribe-AI/src/AudioUploader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transcribe-AI/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Transcribe-AI/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio-transcribe/src/main/java/com/audio/transcribe/AudioTranscribeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/audio-transcribe/src/main/java/com/audio/transcribe/AudioTranscribeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio-transcribe/src/main/java/com/audio/transcribe/TranscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/audio-transcribe/src/main/java/com/audio/transcribe/TranscriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio-transcribe/target/classes/com/audio/transcribe/AudioTranscribeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/audio-transcribe/target/classes/com/audio/transcribe/AudioTranscribeApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio-transcribe/target/classes/com/audio/transcribe/TranscriptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/audio-transcribe/target/classes/com/audio/transcribe/TranscriptionController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/shiva/OneDrive/Desktop/Projects/Spring-AI-Audio-Transcribe-main" value="3D4iIIGC9Peh1TNE5oZHi9ZoC4e" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3D4iIIGC9Peh1TNE5oZHi9ZoC4e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AudioTranscribeApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/shiva/OneDrive/Desktop/Projects/Spring-AI-Audio-Transcribe-main"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96c41a35-0314-4791-8f63-bc2dca1e8a8c" name="Changes" comment="" />
+      <created>1777547661816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777547661816</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
