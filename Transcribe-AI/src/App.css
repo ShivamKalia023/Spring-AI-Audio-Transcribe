@@ -76,3 +76,131 @@ body {
   border: 1px solid #ccc;
   margin-top: 10px;
 }
+
+/* ── Mode tabs (fixed top) ── */
+.mode-tabs {
+  position: fixed;
+  top: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.tab-btn {
+  padding: 8px 20px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tab-btn:hover,
+.tab-btn.active {
+  background: white;
+  color: black;
+}
+
+/* ── Stop button ── */
+.stop-btn {
+  background: #c0392b;
+}
+
+.stop-btn:hover {
+  background: #e74c3c;
+}
+
+/* ── Clear button ── */
+.clear-btn {
+  background: #555 !important;
+}
+
+.clear-btn:hover {
+  background: #777 !important;
+}
+
+/* ── Recording indicator (pulsing dot + label) ── */
+.recording-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  font-size: 14px;
+  color: #c0392b;
+}
+
+.pulse-dot {
+  width: 12px;
+  height: 12px;
+  background: #c0392b;
+  border-radius: 50%;
+  flex-shrink: 0;
+  animation: pulse 1s infinite;
+  display: inline-block;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(0.8); }
+}
+
+/* ── Status / error text ── */
+.status-text {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+}
+
+.error-text {
+  font-size: 13px;
+  color: #c0392b;
+  margin: 0;
+}
+
+/* ── Placeholder text inside transcription box ── */
+.placeholder-text {
+  color: #999;
+}
+
+/* ── In-component mode toggle pill ── */
+.mode-toggle {
+  display: flex;
+  gap: 4px;
+  background: #f0f0f0;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+.toggle-option {
+  flex: 1;
+  padding: 8px 16px;
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  color: #555;
+}
+
+.toggle-option.selected {
+  background: #000;
+  color: #fff;
+}
+
+.toggle-option:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ── Push-to-Talk button ── */
+.ptt-btn {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.ptt-btn.ptt-active {
+  background: #c0392b;
+}

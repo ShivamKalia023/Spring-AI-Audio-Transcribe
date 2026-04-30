@@ -1,5 +1,0 @@
-com\audio\transcribe\WebConfig.class
-com\audio\transcribe\TranscriptionController.class
-com\audio\transcribe\AudioTranscribeApplication.class
-com\audio\transcribe\CommandHandler.class
-com\audio\transcribe\CommandHandler$RunnableCommand.class

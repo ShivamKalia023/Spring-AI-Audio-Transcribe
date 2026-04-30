@@ -1,18 +1,28 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import AudioUploader from './AudioUploader'
+import RealTimeListener from './RealTimeListener'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [mode, setMode] = useState('realtime')
 
   return (
     <>
-    <AudioUploader/>
-    
-    
-    
+      <div className="mode-tabs">
+        <button
+          className={`tab-btn${mode === 'realtime' ? ' active' : ''}`}
+          onClick={() => setMode('realtime')}
+        >
+          🎙️ Real-Time
+        </button>
+        <button
+          className={`tab-btn${mode === 'upload' ? ' active' : ''}`}
+          onClick={() => setMode('upload')}
+        >
+          📁 File Upload
+        </button>
+      </div>
+      {mode === 'realtime' ? <RealTimeListener /> : <AudioUploader />}
     </>
   )
 }

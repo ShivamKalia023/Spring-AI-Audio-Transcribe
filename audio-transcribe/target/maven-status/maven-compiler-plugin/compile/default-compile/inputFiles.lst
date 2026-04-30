@@ -1,4 +1,10 @@
 C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\AudioTranscribeApplication.java
 C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\CommandHandler.java
+C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\config\DeepgramConfig.java
+C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\controller\Deepgramcontroller.java
+C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\service\DeepgramLiveConnection.java
+C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\service\DeepgramService.java
 C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\TranscriptionController.java
-C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\WebConfig.java
+C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\websocket\DeepgramWebSocketHandler.java
+C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\websocket\TranscriptionWebSocketHandler.java
+C:\Users\shiva\OneDrive\Desktop\Projects\Spring-AI-Audio-Transcribe\audio-transcribe\src\main\java\com\audio\transcribe\websocket\WebSocketConfig.java
